@@ -181,14 +181,13 @@ python predict_dl.py --model bilstm  # ou lstm, gru, dense
 Les meilleurs résultats ont été obtenus avec les modèles XGBoost, particulièrement avec l'approche de modèles séparés pour chaque cible.
 
 ### Deep Learning
-| **Modèle** | **MAE** | **RMSE** | **MAPE** | **Performance** |
-|------------|---------|----------|----------|-----------------|
-| **BiLSTM** | **116.12** | **180.23** | **16.91%** | **Meilleur** |
-| **LSTM** | 116.73 | 180.17 | 17.08% | Très bon |
-| **GRU** | 116.54 | 180.53 | 17.00% | Bon |
-| **Dense** | 115.98 | 221.06 | 25.87% | Plus d'erreur |
+| **Modèle** | **MAE** | **RMSE** | **MAPE** |
+|------------|---------|----------|----------|
+| **BiLSTM** | **116.12** | **180.23** | **16.91%** |
+| **LSTM** | 116.73 | 180.17 | 17.08% 
+| **GRU** | 116.54 | 180.53 | 17.00% |
+| **Dense** | 115.98 | 221.06 | 25.87% | 
 
-Le modèle LSTM Bidirectionnel obtient les meilleures performances avec un MAPE de 16.91%
 
 ## Évaluation
 
@@ -199,3 +198,4 @@ Le modèle LSTM Bidirectionnel obtient les meilleures performances avec un MAPE 
 ## Licence
 
 Ce projet est sous licence MIT. 
+
